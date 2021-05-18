@@ -27,18 +27,15 @@ p {
 	background-image: url(./images/bg_1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
+	background-position: center center;
 	height: 100vh;
-	width: auto;
+	width: 100%;
 }
-.container {
-	position: relative;
-	top: 7vh;
+.left-side {
 }
 
 .container__form--box {
 	background: rgba(247, 237, 224, 0.768);
-
 	height: fit-content;
 	padding: 4vh;
 	border-radius: 3%;
