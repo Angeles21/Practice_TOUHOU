@@ -10,8 +10,6 @@
 body {
 	padding: 0;
 	margin: 0;
-
-	background: rgba(247, 237, 224, 0.864);
 }
 
 li {
@@ -30,16 +28,19 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	width: auto;
 	height: 100vh;
+	width: auto;
 }
-.container__form--box {
-	padding: 6vh;
+.container {
+	position: relative;
+	top: 7vh;
 }
+
 .container__form--box {
 	background: rgba(247, 237, 224, 0.768);
-	position: relative;
-	top: 10vh;
+
+	height: fit-content;
+	padding: 4vh;
 	border-radius: 3%;
 }
 .form {
